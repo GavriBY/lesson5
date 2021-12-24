@@ -1,0 +1,46 @@
+/* @import url("reset.css"); */
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-color: rgb(27, 38, 87);
+} */
+
+.logo{
+    background-color: rgb(52, 116, 107);
+    width: 120px;
+    border: 2px solid red;
+    padding: 25px;
+    margin: 40px;
+    
+}
+
+.logo img{
+    width: 100%;
+}
+
+.nav_top{
+    background-color: rgb(199, 166, 199);
+    outline: 2px solid red;
+   
+}
+
+.nav_top .logo,
+.nav_top .nav_items
+{
+    display: inline-block;
+}
+
+.nav_top .nav_items ul li,
+.nav_top .nav_items ol li
+{
+    display: inline-block;
+}
+
